@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+LOG_MIN_PROB	infer.cpp	16;"	d	file:
+LOG_MIN_PROB	inference.cpp	20;"	d	file:
+__STRING_UTILS_H__	StringUtils.h	2;"	d
+alpha	infer.cpp	/^double alpha,beta;$/;"	v
+alpha	inference.cpp	/^double alpha,beta;$/;"	v
+beta	infer.cpp	/^double alpha,beta;$/;"	v
+beta	inference.cpp	/^double alpha,beta;$/;"	v
+calculateConditionalProbability	infer.cpp	/^void calculateConditionalProbability(string word,int* ndz,double* pz,double doclength){$/;"	f
+calculateConditionalProbability	inference.cpp	/^void calculateConditionalProbability(string word,int* ndz,double* pz,double doclength){$/;"	f
+castFromS	StringUtils.h	/^const T castFromS(const std::string &a)$/;"	f	namespace:oir
+castToS	StringUtils.h	/^const std::string castToS(const T &a)$/;"	f	namespace:oir
+doubleRandom	infer.cpp	/^double doubleRandom(){$/;"	f
+doubleRandom	inference.cpp	/^double doubleRandom(){$/;"	f
+inference	infer.cpp	/^double* inference(string* words,int words_len){$/;"	f
+inference	infer.cpp	/^void inference (string* words, int words_len, double* pz,$/;"	f
+inference	inference.cpp	/^double* inference(string* words,int words_len){$/;"	f
+inference	inference.cpp	/^void inference (string* words, int words_len, double* pz,$/;"	f
+inferenceFast	infer.cpp	/^double* inferenceFast(string* doc,int doc_size){$/;"	f
+inferenceFast	inference.cpp	/^double* inferenceFast(string* doc,int doc_size){$/;"	f
+inferenceFastImpl	infer.cpp	/^void inferenceFastImpl(string* doc,int doc_size,double* p){$/;"	f
+inferenceFastImpl	inference.cpp	/^void inferenceFastImpl(string* doc,int doc_size,double* p){$/;"	f
+init	infer.cpp	/^bool init(){$/;"	f
+init	inference.cpp	/^bool init(){$/;"	f
+intRandom	infer.cpp	/^double intRandom(int mode){$/;"	f
+intRandom	inference.cpp	/^double intRandom(int mode){$/;"	f
+klDivergence	kltool.cc	/^double klDivergence(double* p1,double* p2,int size){$/;"	f
+loadModel	infer.cpp	/^bool loadModel(string modelFile){$/;"	f
+loadModel	inference.cpp	/^bool loadModel(string modelFile){$/;"	f
+main	infer.cpp	/^int main(){$/;"	f
+main	inference.cpp	/^int main(){$/;"	f
+n	infer.cpp	/^int numTopics,n;$/;"	v
+n	inference.cpp	/^int numTopics,n;$/;"	v
+ndz	infer.cpp	/^int* ndz;$/;"	v
+ndz	inference.cpp	/^int* ndz;$/;"	v
+numTopics	infer.cpp	/^int numTopics,n;$/;"	v
+numTopics	inference.cpp	/^int numTopics,n;$/;"	v
+nwz	infer.cpp	/^std::map<string,int*> nwz;$/;"	v
+nwz	inference.cpp	/^std::map<string,int*> nwz;$/;"	v
+oir	StringUtils.h	/^namespace oir {$/;"	n
+printDocs	infer.cpp	/^void printDocs(string* p,int doc_size){$/;"	f
+printDocs	inference.cpp	/^void printDocs(string* p,int doc_size){$/;"	f
+readFile	file_reader.h	/^void readFile(string file_name) {$/;"	f
+removeUnknownWords	infer.cpp	/^string* removeUnknownWords(string* words,int length,int* res_len){$/;"	f
+removeUnknownWords	inference.cpp	/^string* removeUnknownWords(string* words,int length,int* res_len){$/;"	f
+sampleInDistribution	infer.cpp	/^int sampleInDistribution(double* dist,int dist_len){$/;"	f
+sampleInDistribution	inference.cpp	/^int sampleInDistribution(double* dist,int dist_len){$/;"	f
+split	StringUtils.cc	/^const vector<string> oir::split(char delimiter, const string &source)$/;"	f	class:oir
+split	StringUtils.cc	/^void oir::split(char delimiter, const string &source,$/;"	f	class:oir
+split	StringUtils.cc	/^void oir::split(const string &delimiters, const string &source,$/;"	f	class:oir
+strip	StringUtils.cc	/^const string oir::strip(string &source)$/;"	f	class:oir
+topicSum	infer.cpp	/^int* topicSum;$/;"	v
+topicSum	inference.cpp	/^int* topicSum;$/;"	v
+totalSum	infer.cpp	/^int totalSum ;$/;"	v
+totalSum	inference.cpp	/^int totalSum ;$/;"	v
+words	infer.cpp	/^std::vector<string> words;$/;"	v
+words	inference.cpp	/^std::vector<string> words;$/;"	v
